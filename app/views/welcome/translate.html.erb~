@@ -1,0 +1,21 @@
+
+
+	
+    <header> 
+		<h1> Husna </h1>
+		
+	    </header>	    
+       	    <section class="container">     
+                <form action="/translate" method="get">
+			
+			<div class="punjabi-area area"> 
+				<textarea class="psearch" name="punjabiAaala" id="first"><% @punjabiWords.each do |word| %><%= word %> <% end %></textarea> 
+			</div>
+			<div class="urdu-area area">
+	                	<textarea class="usearch" dir="rtl" name="urduAaala" id="second"><% @urduWords.each do |word| %><%= word %> <% end %></textarea>
+			</div>
+			<div class="btn-area">
+				<input type="submit" class="submit" name="translateKar" value="Translate"/>
+			</div>
+		</form>
+	    </section>

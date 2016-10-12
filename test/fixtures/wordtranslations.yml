@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  punjabi: MyText
+  urdu: MyString
+  text: MyString
+
+two:
+  punjabi: MyText
+  urdu: MyString
+  text: MyString

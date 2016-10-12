@@ -1,0 +1,209 @@
+	 <!DOCTYPE html>
+ <html lang="en">
+	<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<meta name="google-site-verification" content="osQ2Kp6S6VqE_VZ8Z_43eCYzBpjDII9URj-URIlbKIw">
+		<title> virtual keyboard </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+           <style>
+      	 button{
+		height:32px;
+		width:35px;
+		background-color:pink;
+	       }
+	.double{
+		width:95px;
+	       }
+         </style>
+	<body>
+            <input type="text" id="punjabi">
+
+<script>
+function insertTextInInputValue(buttonValueIs){
+             var inputElementIs = document.getElementById("punjabi");
+            inputElementIs.value = inputElementIs.value + buttonValueIs;
+        }
+function eraseText() {
+    var value = document.getElementById("punjabi").value;
+    document.getElementById("punjabi").value = value.substr(0, value.length - 1);
+}
+
+
+</script>	 
+             	
+             <div id="keyboard">
+               <div class="next line">
+		<button id="k" class="a"onclick="insertTextInInputValue('|');">
+			<div class="original">|</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੧');">
+			<div class="original">੧</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੨');">
+			<div class="original">੨</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੩');">
+			<div class="original">੩</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੪');">
+			<div class="original">੪</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੫');">
+			<div class="original">੫</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੬');">
+			<div class="original">੬</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੭');">
+			<div class="original">੭</div></button>
+		<button id=" k" class="a"onclick="insertTextInInputValue('੮');">
+			<div class="original">੮</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੯');">
+			<div class="original">੯</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੦');">
+			<div class="original">੦</div></button>
+		<button class ="double" onclick="insertTextInInputValue(' ');">
+                        <div class ="original">SPACE</div></button>
+ 		<button class="double" id="clearbutton"  onclick="javascript:eraseText();">
+                        <div class ="original">BACKSPACE</div></button>	
+	</div>	
+	<div class="next line">			
+		<button id="k" class="a"onclick="insertTextInInputValue('ੳ');">
+		        <div class="original" >ੳ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਉ');">
+			<div class="original">ਉ</div></button>
+                 <button id="k" class="a"onclick="insertTextInInputValue('ਊ');">
+			<div class="original">ਊ</div></button>
+		<button id="k" class="a" onclick="insertTextInInputValue('ਓ');">
+			<div class="original">ਓ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਅ');">
+			<div class="original">ਅ </div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਔ');">
+			<div class="original">ਔ</div></button>		
+		<button id="k" class="a"onclick="insertTextInInputValue('ਐ');">
+			<div class="original">ਐ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਆ');">
+			<div class="original">ਆ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੲ');">
+		        <div class="original" >ੲ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਇ ');">
+			<div class="original">ਇ </div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਈ');">
+			<div class="original">ਈ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਏ');">
+			<div class="original"> ਏ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਸ');">
+			<div class="original">ਸ </div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਸ਼');">
+			<div class="original">ਸ਼ </div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਹ');">
+			<div class="original">ਹ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਕ');">
+			<div class="original"> ਕ</div></button>
+	   </div>
+	<div class="next line">		
+		<button id="k" class="a"onclick="insertTextInInputValue('ਖ');">
+			<div class="original">ਖ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਖ਼');">
+			<div class="original">ਖ਼</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਗ');">
+			<div class="original">ਗ</div></button>
+			<button id="k" class="a"onclick="insertTextInInputValue('ਗ਼');">
+			<div class="original">ਗ਼</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਘ');">
+			<div class="original">ਘ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਙ');">
+			<div class="original">ਙ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਚ');">
+			<div class="original">ਚ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਛ');">
+			<div class="original">ਛ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਜ');">
+			<div class="original">ਜ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਜ਼');">
+			<div class="original">ਜ਼</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਝ');">
+			<div class="original">ਝ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਞ');">
+			<div class="original">ਞ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਟ');">
+			<div class="original">ਟ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਠ');">
+			<div class="original">ਠ</div></button>
+	   
+		<button id="k" class="a"onclick="insertTextInInputValue('ਡ');">
+			<div class="original">ਡ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਢ');">
+			<div class="original">ਢ</div></button>
+	</div>
+	<div class="next line">	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਣ');">
+			<div class="original">ਣ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਤ');">
+			<div class="original">ਤ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਥ');">
+			<div class="original">ਥ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਦ');">
+			<div class="original">ਦ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਧ');">
+			<div class="original">ਧ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਨ');">
+			<div class="original">ਨ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਪ');">
+			<div class="original">ਪ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਫ');">
+			<div class="original">ਫ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਫ਼');">
+			<div class="original">ਫ਼</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਬ');">
+			<div class="original">ਬ</div></button>		
+		<button id="k" class="a"onclick="insertTextInInputValue('ਭ');">
+			<div class="original">ਭ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਮ');">
+			<div class="original">ਮ</div></button>
+	   
+		<button id="k" class="a"onclick="insertTextInInputValue('ਯ');">
+			<div class="original">ਯ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਰ');">
+			<div class="original"> ਰ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਲ');">
+			<div class="original">ਲ</div></button>	
+			
+		<button id="k" class="a"onclick="insertTextInInputValue('ਲ਼');">
+			<div class="original">ਲ਼</div></button>
+		</div>
+	<div class="next line">	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਵ');">
+			<div class="original">ਵ</div></button>
+		<button id="k" class="original"onclick="insertTextInInputValue('ੜ');">
+			<div class="original">ੜ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ਾ');">
+			<div class="original">ਾ</div></button>
+	         <button id="k" class="a"onclick="insertTextInInputValue('ਂ');">
+			<div class="original">ਂ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ਿ');">
+			<div class="original">ਿ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੀ');">
+			<div class="original">ੀ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੇੇ');">
+			<div class="original">ੇ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੈ');">
+			<div class="original">ੈ</div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ੁ');">
+			<div class="original">ੁ </div></button>	
+		<button id="k" class="a"onclick="insertTextInInputValue('ੂ');">
+			<div class="original">ੂ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੋ');">
+			<div class="original">ੋ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੌ');">
+			<div class="original">ੌ</div></button>
+	 
+	        <button id="k" class="a"onclick="insertTextInInputValue('ੱ');">
+			<div class="original">ੱ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('ੰ');">
+			<div class="original">ੰ</div></button>
+		<button id="k" class="a"onclick="insertTextInInputValue('੍');">
+			<div class="original">੍</div></button>		
+		<button id="k" class="a"onclick="insertTextInInputValue('ਁ');">
+			<div class="original">ਁ</div></button>			
+ 		
+	   </div>
+     </div>	
+  </body>
+</html>
+

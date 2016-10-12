@@ -1,0 +1,30 @@
+<header> 
+		<h1> Husna </h1>
+                       <div id ="signupandlogin">
+                        <% if user_signed_in? %>
+ 				 Logged in as <strong><%= current_user.email %></strong>.
+				 link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+  			<%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+			<% else %>
+                          
+ 		             <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+ 		       	     <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+         		
+                        <% end %>
+  		 </div>
+</header>	    
+       	    <section class="container">
+                <form action="/translate" method="get">
+			<div class="punjabi-area area"> 
+				<textarea class="psearch" name="punjabiAaala" id="first">Write in Punjabi Here</textarea> 
+			</div>
+			<div class="urdu-area area">
+	                	<textarea class="usearch" name="urduAaala" id="second">Expect Urdu Here</textarea>
+			</div>
+			<div class="btn-area">
+				<input type="submit" class="submit" name="translateKar" value="Translate"/>
+			</div>
+		</form>
+	
+		
+	    </section>

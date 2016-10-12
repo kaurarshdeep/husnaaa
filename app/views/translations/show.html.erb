@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Punjabi:</strong>
+  <%= @translation.punjabi %>
+</p>
+
+<p>
+  <strong>Urdu:</strong>
+  <%= @translation.urdu %>
+</p>
+
+<%= link_to 'Edit', edit_translation_path(@translation) %> |
+<%= link_to 'Back', translations_path %>

@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+ <html lang="en">
+	<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<meta name="google-site-verification" content="osQ2Kp6S6VqE_VZ8Z_43eCYzBpjDII9URj-URIlbKIw">
+		<title> virtual keyboard </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body>
+             <textarea id="qwerty-mod"></textarea>
+	     <script src="javascript.js"></script>  
+             <div id="keyboard">
+               <div id="vkBoard-main">
+                 <button id="k0" class="a">
+		   <div class="original">`</div></button>
+		 <button id="k1" class="a">
+		  <div class="original">1</div></button>
+		<button id="k2" class="a">
+			<div class="original">2</div></button>
+		<button id="k3" class="a">
+			<div class="original">3</div></button>
+		<button id="k4" class="a">
+			<div class="original">4</div></button>
+		<button id="k5" class="a">
+			<div class="original">5</div></button>
+		<button id="k6" class="a">
+			<div class="original">6</div></button>
+		<button id="k7" class="yboard-apple">
+			<div class="original">7</div></button>
+		<button id="k8" class="a">
+			<div class="original">8</div></button>
+		<button id="k9" class="a">
+			<div class="original">9</div></button>
+		<button id="k10" class="a">
+			<div class="original">0</div></button>
+		<button id="k11" class="a">
+			<div class="original">-</div></button>
+		<button id="k12" class="a">
+			<div class="original">=</div></button>
+		<button id="Backspace" class="a">
+			<span>Backspace</span></button>
+			<div class="onkey-remove"></div>
+		<button id="tab" class="a">
+			<span>Tab</span></button>
+		<button id="k13" class="a">
+			<div class="original">ੌ</div></button>
+		<button id="k14" class="a">
+			<div class="original">ੈ</div></button>
+		<button id="k15" class="a">
+			<div class="original">ਾ</div></button>
+		<button id="k16" class="a">
+			<div class="original">ੀ</div></button>
+		<button id="k17" class="a">
+			<div class="original">ੂ</div></button>
+		<button id="k18" class="a">
+			<div class="original">ਬ</div></button>
+		<button id="k19" class="a">
+			<div class="original">ਹ</div></button>
+		<button id="k20" class="a">
+			<div class="original">ਗ</div></button>
+		<button id="k21" class="a">
+			<div class="original">ਦ</div></button>
+		<button id="k22" class="a">
+			<div class="original">ਜ</div></button>
+		<button id="k23" class="a">
+			<div class="original">ਡ</div></button>
+		<button id="k24" class="a">
+			<div class="original">਼</div></button>
+		<button id="k25" class="a">
+			<div class="original">\</div></button>
+			<div class="onkey-remove"></div>
+		<button id="caps-lock" class="a">
+			<span>Caps Lock</span></button>
+		<button id="k26" class="a">
+			<div class="original">ੋ</div></button>
+		<button id="k27" class="a">
+			<div class="original">ੇ</div></button>
+		<button id="k28" class="a">
+			<div class="original">੍</div></button>
+		<button id="k29" class="a">
+			<div class="original">ਿ</div></button>
+		<button id="k30" class="a">
+			<div class="original">ੁ</div></button>
+		<button id="k31" class="a">
+			<div class="original">ਪ</div></button>
+		<button id="k32" class="a">
+			<div class="original">ਰ</div></button>
+		<button id="k33" class="a">
+			<div class="original">ਕ</div></button>
+		<button id="k34" class="a">
+			<div class="original">ਤ</div></button>
+		<button id=" k35" class="a">
+			<div class="original">ਚ</div></button>
+		<button id="k36" class="a">
+			<div class="original">ਟ</div></button>
+		<button id="enter" class="vkBoard-key-enter vkBoard-keyboard-apple">
+			<span>Enter</span></button>
+			<div class="onkey-remove"></div>
+		<button id="left-shift" class="a">
+			<span>Shift</span></button>
+		<button id="k37" class="onkey vkBoard-keyboard-apple">
+			<div class="original">&nbsp;</div></button>
+		<button id="k38" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ੰ</div></button>
+		<button id="k39" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਮ</div></button>
+		<button id="k40" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਨ</div></button>
+		<button id="k41" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਵ</div></button>
+		<button id="k42" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਲ</div></button>
+		<button id="k43" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਸ</div></button>
+		<button id="k44" class="onkey vkBoard-keyboard-apple">
+			<div class="original">,</div></button>
+		<button id="k45" class="onkey vkBoard-keyboard-apple">
+			<div class="original">.</div></button>
+		<button id="k46" class="onkey vkBoard-keyboard-apple">
+			<div class="original">ਯ</div></button>
+		<button id="right-shift" class="a">
+			<span>Shift</span></button>		
+			<div class="onkey-remove"></div>
+		<button id="left-ctrl" class="a">
+			<span>Ctrl</span></button>
+		<button id="left-alt" class="a">
+			<span>Alt</span></button>
+		<button id="space" class="a">
+			<span>Space</span></button>
+		<button id="right-alt" class="a">
+			<span>Alt</span></button>
+		<button id="right-ctrl" class="a">
+			<span>Ctrl</span></button>
+			<div class="onkey-remove"></div>
+
+</body>
+ </html>

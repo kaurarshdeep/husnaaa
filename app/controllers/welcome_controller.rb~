@@ -1,0 +1,17 @@
+class WelcomeController < ApplicationController
+skip_before_action :verify_authenticity_token
+  def index
+	
+  end
+
+  def translate
+	@punjabiWordsList = params[:urduAaala].split(/\W+/).uniq.inspect
+	@noOfWords = @punjabiWordsList.length
+	@urduWordsList = []
+	for i in 0..@noOfWords
+		@pun = Translation.where(punjabi: @urduWordsList[i]).inspect
+   		end
+		
+		
+  end
+end
